@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .menu-item {
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Website</h1>
+    </header>
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome! Explore our website to learn more about technology, nature, and delicious food.</p>
+        <a href="https://techcrunch.com/">
+            <img src="images/technology.png" alt="Technology Image" width="300">
+        </a>
+    </section>
+    
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="https://ncx.com/">
+                <img src="images/nature1.jpeg" alt="Nature Image 1" width="200">
+            </a>
+            <a href="https://www.wcs.org/">
+                <img src="images/nature2.jpeg" alt="Nature Image 2" width="200">
+            </a>
+            <a href="https://www.centralparknyc.org/">
+                <img src="images/nature3.jpeg" alt="Nature Image 3" width="200">
+            </a>
+        </div>
+    </section>
+    
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li class="menu-item">
+                <a href="https://example.com/food1">
+                    <img src="images/pizza.jpeg" alt="Food Item 1" width="100"> Pizza
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://example.com/food2">
+                    <img src="images/sushi.jpeg" alt="Food Item 2" width="100"> Sushi
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://example.com/food3">
+                    <img src="images/salad.jpeg" alt="Food Item 3" width="100"> Salad
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Thank you for visiting our website!</p>
+    </footer>
+</body>
+</html>
